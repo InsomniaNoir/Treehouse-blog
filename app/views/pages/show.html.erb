@@ -2,6 +2,10 @@
 
 <body>
     <%= @page.body %>
-</body>
+</body><br />
 
-<%= link_to 'Edit', edit_page_path(@page) %>
+<div>
+    <%= link_to 'Edit', edit_page_path(@page) %> |
+    <%= link_to 'Delete', @page, method: :delete %> |
+    <%= link_to "Table of Contents", pages_path%>
+</div>
