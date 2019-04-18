@@ -1,5 +1,3 @@
-javascript_include_tag Ckeditor.cdn_url
-
 <%= form_for(page) do |f| %>
     <div class="field">
         <%= f.label :title %>
@@ -8,7 +6,7 @@ javascript_include_tag Ckeditor.cdn_url
 
     <div class="field">
         <%= f.label :body %>
-        <%= f.cktext_area :body, ckeditor: { language: 'uk' } %>
+        <%= f.text_area :body %>
     </div>
 
     <div class="field">
