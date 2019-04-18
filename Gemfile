@@ -36,9 +36,9 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
-# WYSIWYG
-gem 'ckeditor', github: 'galetahub/ckeditor'
-gem 'paperclip'
+# Bootstrap SASS
+gem 'bootstrap'
+gem 'jquery-rails'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
